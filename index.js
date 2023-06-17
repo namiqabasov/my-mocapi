@@ -10,6 +10,7 @@ const port = 3000;
 let data = [
   {
     id: 1,
+    amount: 100,
     img_src:
       "https://demo.goodlayers.com/infinite/homepages/emporium/wp-content/uploads/sites/18/2016/06/product-luxry-sofa.jpg",
     name: "Luxury Sofa",
@@ -20,6 +21,7 @@ let data = [
   },
   {
     id: 2,
+    amount: 100,
     img_src:
       "https://demo.goodlayers.com/infinite/homepages/emporium/wp-content/uploads/sites/18/2016/06/product-gloves.jpg",
     name: "Leather Gloves",
@@ -34,12 +36,14 @@ let data = [
       "https://demo.goodlayers.com/infinite/homepages/emporium/wp-content/uploads/sites/18/2016/06/product-cups.jpg",
     name: "Colorful Bowl",
     sale: "false",
-    price: 18,
+    price: "18",
+    amount: "102",
     command:
       "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
   },
   {
     id: 4,
+    amount: 100,
     img_src:
       "https://demo.goodlayers.com/infinite/homepages/emporium/wp-content/uploads/sites/18/2016/06/product-bag.jpg",
     name: "Women Bag",
@@ -50,6 +54,7 @@ let data = [
   },
   {
     id: 5,
+    amount: 100,
     img_src:
       "https://demo.goodlayers.com/infinite/homepages/emporium/wp-content/uploads/sites/18/2016/06/product-tshitr.jpg",
     name: "Minimal T-Shirt",
@@ -60,6 +65,7 @@ let data = [
   },
   {
     id: 6,
+    amount: 100,
     img_src:
       "https://demo.goodlayers.com/infinite/homepages/emporium/wp-content/uploads/sites/18/2016/06/product-plates.jpg",
     name: "Plates Set",
@@ -70,6 +76,7 @@ let data = [
   },
   {
     id: 7,
+    amount: 100,
     img_src:
       "https://demo.goodlayers.com/infinite/homepages/emporium/wp-content/uploads/sites/18/2016/06/product-modern-sofa.jpg",
     name: "Modern Sofa",
@@ -80,6 +87,7 @@ let data = [
   },
   {
     id: 8,
+    amount: 100,
     img_src:
       "https://demo.goodlayers.com/infinite/homepages/emporium/wp-content/uploads/sites/18/2016/06/product-bed.jpg",
     name: "Bed Linen",
@@ -90,6 +98,7 @@ let data = [
   },
   {
     id: 9,
+    amount: 100,
     img_src:
       "https://demo.goodlayers.com/infinite/homepages/emporium/wp-content/uploads/sites/18/2016/06/product-shoes.jpg",
     name: "Minimal Shoes",
@@ -100,6 +109,7 @@ let data = [
   },
   {
     id: 10,
+    amount: 100,
     img_src:
       "https://demo.goodlayers.com/infinite/homepages/emporium/wp-content/uploads/sites/18/2016/06/product-bed-600x472.jpg",
     name: "Modern Sofa",
@@ -110,6 +120,7 @@ let data = [
   },
   {
     id: 11,
+    amount: 100,
     img_src:
       "https://a6e8z9v6.stackpathcdn.com/kleanity/wp-content/uploads/2016/08/brown-notebook.jpg",
     name: "Modern Bed",
@@ -120,6 +131,7 @@ let data = [
   },
   {
     id: 12,
+    amount: 100,
     img_src:
       "https://a6e8z9v6.stackpathcdn.com/kleanity/wp-content/uploads/2016/08/minimal-white-chair.jpg",
     name: "Modern Chair",
